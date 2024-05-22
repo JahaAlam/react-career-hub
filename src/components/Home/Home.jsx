@@ -1,9 +1,15 @@
+import Banner from "../Banner/Banner"
+import CaterygoryList from "../CategoryList/CaterygoryList"
+import FeatureJobs from "../FeatureJobs/FeatureJobs"
 
 
 function Home() {
   return (
     <div>
-        <h2>This is home</h2>
+        <Banner></Banner>
+        <CaterygoryList></CaterygoryList>
+        <FeatureJobs></FeatureJobs>
+        
     </div>
   )
 }
