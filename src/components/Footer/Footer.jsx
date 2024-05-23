@@ -1,6 +1,7 @@
 function Footer() {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content">
+    <footer className="p-10 bg-neutral text-neutral-content">
+      <div className="footer max-w-4xl mx-auto">
       <nav>
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Branding</a>
@@ -21,6 +22,7 @@ function Footer() {
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
       </nav>
+      </div>
     </footer>
   );
 }
